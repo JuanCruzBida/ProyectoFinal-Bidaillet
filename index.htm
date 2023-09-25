@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="./css/estilos.css">
+    <!-- Link Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Lato:wght@300&display=swap"
+        rel="stylesheet">
+    <!-- Link Icon Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Ropa.Basica</title>
+</head>
+
+<body>
+    <div class="container-gral">
+
+        <header id="header">
+            <div class="header-container">
+                <h1><span class="palabra-blanca">Ropa</span><span class="palabra-negra">.Básica</span></h1>
+
+                <div class="cart-container">
+                    <button class="btn-cart">
+                        <i class="bi bi-cart"></i>
+                    </button>
+
+                    <div class="count-products">
+                        <span id="cant-products">0</span>
+                    </div>
+
+                    <div id="cart-container" class="cart-container-products hidden-cart">
+                        
+                        <div id="product-list">
+                            <!-- Contenido dinámico -->                                
+                        </div>
+                        
+                        <div id="carrito-vacio">
+                            <div class="sub-total">
+                                <a href="./pages/carrito.htm"><h3 class="ocultar">Tu carrito está vacío</h3></a>
+                            </div>
+                            <div class="cart-close">
+                                <button class="btn-cart-close">
+                                    <p>Cerrar</p>
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main id="main">
+            <!-- Nav -->
+            <section class="nav-section">
+                <nav id="nav">
+                    <ul class="nav-list">
+                        <li id="todos" class="link-categoria"><a href="#">Todos los productos</a></li>
+                        <li id="remeras" class="link-categoria"><a href="#">Remeras</a></li>
+                        <li id="buzos" class="link-categoria"><a href="#">Buzos</a></li>
+                        <li id="pantalones" class="link-categoria"><a href="#">Pantalones</a></li>
+                    </ul>
+                </nav>
+            </section>
+
+            <!-- Cards -->
+            <section id="cards-section" class="cards-container">
+                <h2 id="titulo" class="cards-title">Todos los productos</h2>
+                <div id="cards-container" class="cards-container">
+                    <!-- Contenido dinámico -->
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer id="footer">
+                <div class="footer-container">
+                    <p>Simulador E-commerce - Entrega final - Juan Cruz Bidaillet | CoderHouse - Java Script - Comisión
+                        47020</p>
+                    <h3><span class="palabra-blanca">Ropa</span><span class="palabra-negra">.Básica</span></h3>
+                </div>
+            </footer>
+
+        </main>
+
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

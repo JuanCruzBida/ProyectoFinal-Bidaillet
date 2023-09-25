@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="../css/estilos.css">
+    <!-- Link Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Lato:wght@300&display=swap"
+        rel="stylesheet">
+    <!-- Link Icon Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Ropa.Basica</title>
+</head>
+
+<body>
+    <div class="container-gral">
+
+        <header id="header">
+            <div class="header-container">
+                <h1><span class="palabra-blanca">Ropa</span><span class="palabra-negra">.Básica</span></h1>
+
+        </header>
+
+        <main id="main">
+            <!-- Cards -->
+            <section id="cart-section" class="cart-section">
+
+                <h2 id="titulo" class="cards-title">Tus básicos - <a href="../index.htm">Seguir comprando</a></h2>
+                <!-- Contenedor Vacio -->
+                <div id="contenedor-vacio" class="carrito">
+                    <h2 class="empty">Carrito vacío</h2>
+                    <a class="volver" href="../index.htm">Ir a la tienda</a>
+                </div>
+                <!-- Contenedor comprado -->
+                <div id="contenedor-fin" class="fin habilitado">
+                    <h2 class="empty">Carrito vacío - Gracias por usar el simulador!</h2>
+                    <a class="volver" href="../index.htm">Ir a la tienda</a>
+                </div>
+                <!-- Contenedor items -->
+                <div id="contenedor-items" class="items-container habilitado">
+                        <!-- Contenido dinámico -->
+                </div>
+                <!-- Contenedor acciones -->
+                <div id="contenedor-acciones" class="acciones-container habilitado">
+                    <div id="acciones">
+                        <div id="vaciar" class="vaciar">
+                            <button id="borrado" class="btn-trash">Vaciar Carrito</button>
+                        </div>
+                        <div id="comprar" class="comprar">
+                            <button id="comprado" class="btn-cash">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+    </div>
+
+
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="footer-container">
+            <p>Simulador E-commerce - Entrega final - Juan Cruz Bidaillet | CoderHouse - Java Script - Comisión
+                47020</p>
+            <h3><span class="palabra-blanca">Ropa</span><span class="palabra-negra">.Básica</span></h3>
+        </div>
+    </footer>
+
+    </main>
+
+    </div>
+
+    <script src="../js/carrito.js"></script>
+
+</body>
+
+</html>
